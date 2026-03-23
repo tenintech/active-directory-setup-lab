@@ -1,6 +1,6 @@
 <h1>Active Directory User Account Management Lab</h1>
 <h2>Objective</h2>
-Simulate onboarding and supporting users in a corporate Active Directory environment.
+Deploy Windows Server and Active Directory and simulate onboarding and supporting users in a corporate Active Directory environment.
 
 <h2>Technologies/Environments Used</h2>
   
@@ -16,10 +16,20 @@ Simulate onboarding and supporting users in a corporate Active Directory environ
   
   - Virtualization (Azure VM)
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+
 <br />
 
+
+<h2>Installation & Setup Steps:</h2>
+<b>Step 1 — Create the Domain Controller</b>
+
+1. Deploy a Windows Server VM.
+
+2. Assign a static private IP address.
+
+3. Rename the server (Example: DC01).
+
+4. Restart the server.
 
 <h2>Program walk-through:</h2>
 
