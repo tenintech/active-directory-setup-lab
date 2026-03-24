@@ -116,7 +116,7 @@ This confirms that the client machine is using the Domain Controller as its DNS 
 <hr />
 
 ## What I Learned
-During this lab I learned how important DNS configuration is when setting up Active Directory in Azure. This is necessary so that the users computers don't go looking out on the world wide web but get their information from inside the domain. 
+During this lab I learned how important DNS configuration is when setting up Active Directory in Azure. Matching the IP Address to the same network is critical for ensuring direct, secure, and reliable communication for Active Directory services. Otherwise, network traffic may be blocked, misrouted or fail to resolve.
 
 <h2>⏭️Next Steps</h2>
 
