@@ -1,23 +1,22 @@
-<h1>Active Directory User Account Management Lab</h1>
+<h1>Preparing Active Directory Infrastructure in Microsoft Azure</h1>
 <h2>Objective</h2>
 Deploy Windows Server and Active Directory to simulate onboarding and supporting users in a corporate Active Directory environment.
 <img width="799" height="891" alt="Screenshot 2026-03-23 195750" src="https://github.com/user-attachments/assets/60595e1c-e055-4b46-a273-c6e0c373ca93" />
 
 <h2>Technologies/Environments Used</h2>
   
-  - Virtual Network within Microsoft Azure
+  - Microsoft Azure(Virtual Network, Machines)
     
-  - Windows Server 2025 (Domain Controller)
+       - Windows Server 2025 (Domain Controller)
  
-  - Active Directory Domain Services (ADDS)
+       - Windows 10 Enterprise Version 22H2 x64 Gen 2
   
-  - Windows 10 Enterprise Version 22H2 x64 Gen 2
+  - Active Directory Domain Services (ADDS)
   
   - Remote Desktop (RDP)
   
   - PowerShell
   
-  - Virtualization (Azure VM)
 
 
 <br />
