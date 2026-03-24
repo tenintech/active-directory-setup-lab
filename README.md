@@ -1,6 +1,6 @@
 <h1>Preparing Active Directory Infrastructure in Microsoft Azure</h1>
 <h2>Objective</h2>
-Deploy Windows Server and Active Directory to simulate onboarding and supporting users in a corporate Active Directory environment.
+This project demonstrates the deployment of an on-premises-style Active Directory infrastructure using Microsoft Azure Virtualization. The lap walks through creating a Domain Contoller on a Virtual Network and a client machine, configuring network connectivity, and implementing the required Domain Name Service settings to support Active Directory Domain Services.  
 <img width="799" height="891" alt="Screenshot 2026-03-23 195750" src="https://github.com/user-attachments/assets/60595e1c-e055-4b46-a273-c6e0c373ca93" />
 
 <h2>Technologies/Environments Used</h2>
