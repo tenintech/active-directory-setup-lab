@@ -32,7 +32,7 @@ Within Microsoft Azure, deploy a Windows Server Virtual Machine that will serve 
 Configuration:
 - Virtual Machine Name: DC1
 - Image: Windows Server 2025
-- Virtual Network: Same network that will be used by the client machine
+- Virtual Network: Named "VNet10" Same network that will be used by the client machine
 
 <img width="900" height="1000" alt="Created Domain Controller VM" src="https://github.com/user-attachments/assets/2e95058d-039e-450f-80d1-d68e1015592e" />
 
@@ -47,7 +47,7 @@ Create another Windows Virtual Machine that will act as a client computer in the
 Configuration:
 - Virtual Machine Name: Client1
 - Image: Windows 10 Enterprise
-- Virtual Network: Same VNet as the Domain Controller
+- Virtual Network: Same VNet as the Domain Controller (VNet10)
 
 <img width="1920" height="1080" alt="Created Client VM" src="https://github.com/user-attachments/assets/f1cfc3f4-1d6a-4dad-88f2-5dd9b40c8fe1" />
 
